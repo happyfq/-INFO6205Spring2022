@@ -31,7 +31,6 @@ class Solution{
             else{
                 r--;
                 swap(nums,i,r);
-
             }
         }
     }
@@ -39,6 +38,5 @@ class Solution{
         int temp=nums[index1];
         nums[index1] = nums[index2];
         nums[index2] =temp;
-
     }
 }
