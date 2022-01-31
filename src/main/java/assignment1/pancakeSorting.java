@@ -5,6 +5,9 @@ import java.util.List;
 
 public class pancakeSorting {
     public static void main(String[] args) {
+        int[] arr= {3,2,4,1};
+        Solution969 s = new Solution969();
+        System.out.println(s.pancakeSort(arr));
     }
 }
 
