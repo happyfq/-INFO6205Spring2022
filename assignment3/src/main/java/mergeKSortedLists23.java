@@ -3,23 +3,6 @@ import java.util.PriorityQueue;
 public class mergeKSortedLists23 {
 }
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode() {
-    }
-
-    ListNode(int val) {
-        this.val = val;
-    }
-
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
-
 class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) {
@@ -42,5 +25,22 @@ class Solution {
             }
         }
         return dummy.next;
+    }
+
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode() {
+        }
+
+        ListNode(int val) {
+            this.val = val;
+        }
+
+        ListNode(int val, ListNode next) {
+            this.val = val;
+            this.next = next;
+        }
     }
 }
