@@ -1,3 +1,5 @@
+package INFO6205Spring2022.assignment3.src.main.java;
+
 public class insertIntoASortedCircularLinkedList708 {
 }
 
