@@ -15,7 +15,7 @@ class Solution4 {
                 list.add(intervals[i]);
             } else if (intervals[i][1] <= intervals[i + 1][0]) {
                 intervals[i][0] = Math.min(intervals[i][0], intervals[i + 1][0]);
-                intervals[i][1] = Math.max(intervals[i + 1][1], intervals[i + 1][1]);
+                intervals[i][1] = Math.max(intervals[i][1], intervals[i + 1][1]);
                 list.add(intervals[i]);
             }
         }
