@@ -4,8 +4,8 @@ import java.util.List;
 
 class Solution4 {
     public List<List<int[]>> mergeInt(int[][] intervals) {
-        if (intervals == null) return null;
         List<List<int[]>> res = new ArrayList<>();
+        if (intervals == null) return res;
         List<int[]> list = new ArrayList<>();
         Arrays.sort(intervals, (o1, o2) -> {
             return o1[0] - o2[0];
