@@ -19,8 +19,3 @@ public class question3 {
         return new ArrayList<>(map.values());
     }
 }
-
-
-
-
-}
